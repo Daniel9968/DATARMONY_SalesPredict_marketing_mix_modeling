@@ -1,0 +1,1 @@
+SELECT year, month, units, pvp FROM(SELECT year, month, SUM(units) AS units, SUM(pvp) AS pvp  FROM `prj-dt-pro-dwh-dmt-data.ds_fusion_marketing_mix_modeling.tbl-dmt-fusion-marketing_mix_modeling-markets_monthly_so` WHERE bu = {{bu}} GROUP BY year, month)

@@ -1,0 +1,479 @@
+body {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+body *{
+    font-weight: 600;
+}
+
+div label p {
+ color: white
+}
+
+div:has(> .stAlert){
+    display: none !important;
+}
+
+div.stAlert{
+    display: none !important;
+}
+
+.stDeployButton{
+
+ display:none !important;
+
+}
+
+.st-emotion-cache-zt5igj{
+    width: auto !important;
+}
+/*
+canvas{
+    width: 100% !important;
+    height: auto !important;
+
+}
+*/
+canvas{
+   padding: 0px !important;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div {
+    width: 100%;
+    padding: 0rem 1rem 10rem;
+    /*background-color: red;*/
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(1) > div > div > div > img{
+    margin-top: 46px;
+}
+
+/*
+ tabla de Ventas e inversiones por semana
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(5) > div  {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(5) > div > div > div:nth-child(1) > div:nth-child(1) > div > div > div > div > div {
+    background-color: #00B7C0;
+    color: black;
+    font-weight: 600;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(5) > div > div > div:nth-child(2) > div:nth-child(1) > div > div > div > div > div {
+    background-color: #00B7C0;
+    color: black;
+    font-weight: 600;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(5) > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div > div > div{
+    background-color: #00B7C0;
+    color: black;
+    font-weight: 600;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(7) > div,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div {
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(1),
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div > div:nth-child(1){
+    background-color: #222222;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div > div:nth-child(2) > div,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(2) > div{
+    background-color: #222222;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(2) > div > div > div:nth-child(1),
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div > div:nth-child(2) > div > div > div:nth-child(1){
+    display: grid;
+    align-items: center;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(2) > div > div > div > div:nth-child(1) > div > div > div > div > p{
+    margin: 0px;
+}
+/*
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(5) > div > div,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(4) > div > div{
+    width: calc(100% - 40px);
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(5) > div > div > div > canvas,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(6) > div > div:nth-child(4) > div > div > div > canvas,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(7) > div > div > div > div > div > canvas{
+    width: 100% !important;
+}
+*/
+/*
+ tabla de simulador
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(8) h1{
+    background-color: #222222;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div{
+    background-color: #222222;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div .st-emotion-cache-183lzff.exotz4b0{
+    width: 100%;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div .st-emotion-cache-ocqkz7.e1f1d6gn3 .st-emotion-cache-183lzff.exotz4b0{
+    text-align: left;
+    margin-left: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+    gap: 32px !important;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div > div > div > div {
+    border: 1px solid white;
+    border-radius: 2rem;
+    height: 30px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div > div {
+    border: none !important;
+}
+
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div  > div > div > div > div > div > div > div > div {
+    padding: 2.5px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1){
+    margin-bottom: 0px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+    margin-bottom: calc(55px - 32px);
+    padding-bottom: 0px !important;
+}
+
+input[aria-label="inversion_field"] {
+border-radius: 2rem;
+background-color: white;
+color: black;
+text-align: center;
+height: 28.4px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(1) > div:nth-child(2) > div > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    gap: 32px !important;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div> div:nth-child(1) > div > div:nth-child(9) > div > div > div > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > div > div > p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 !important;
+    text-align: center;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    background-color: #00B7C0;
+    color: black;
+    height: 30px;
+    width: 30px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(9) > div > div > div > div:nth-child(1) > div > div > div > div:nth-child(1) > div {
+    gap: calc(32px + 16px) !important;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(9) > div > div > div > div:nth-child(1) > div > div > div > div {
+    width: 100%;
+    text-align: center;
+}
+
+/*
+ inferior tabla de simulador
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(2) > div div{
+    /*background-color: blue;*/
+    text-align: right !important;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(2) > div > div.st-emotion-cache-ocqkz7.e1f1d6gn3 > div.st-emotion-cache-j5r0tf.e1f1d6gn1 > div:nth-child(1) > div > div > div > div{
+    background-color: #818285;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(2) > div > div.st-emotion-cache-ocqkz7.e1f1d6gn3 > div.st-emotion-cache-j5r0tf.e1f1d6gn1 > div:nth-child(1) > div > div > div > div{
+    text-align: center !important;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(2) > div > div:nth-child(2) > div{
+    display: block;
+    padding-right: 45px;
+    border-radius: 10px;
+    background-color: #C73842;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(2) > div > div:nth-child(2) > div > div > p > span:nth-child(1){
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(2) > div > div:nth-child(2) > div > div > p > span:nth-child(2){
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(2) > div > div:nth-child(3) > div > div > p{
+    color: #C73842;
+    margin-bottom: 40px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(9) > div > div:nth-child(3) > div > div button{
+    background-color: #00B7C0;
+    color: black;
+    font-weight: 600;
+}
+
+/*
+ Inversiones [euros]
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(1) > div:nth-child(1) > div{
+    display: block;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) > div{
+    padding: 20px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(1){
+    background-color: #222222;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(1) canvas{
+    padding: 20px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(1) > div:nth-child(1) > div > div > div > div > div,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(1) > div:nth-child(1) > div > div > div > div canvas{
+    background-color: #222222 !important;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(2) > div > div{
+    width: 100% !important;
+}
+
+/*
+ Retorno esperado
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div > div{
+    width: 100%;
+    background-color: #00B7C0;
+    color: black;
+    border-radius: 10px;
+    font-size: 45px;
+    white-space: revert;
+    padding: 20px;
+    line-height: 40px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > div > div{
+    background-color: #00B7C0;
+    color: black;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(1){
+    display: flex;
+    padding: 20px;
+    padding-bottom: 10px;
+    align-items: flex-end;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(1) > div:nth-child(1){
+    font-size: 50px;
+    text-align: right;
+    color: #C73842;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(1) > div:nth-child(2){
+    width: 30%;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2){
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/*
+ Distribucion de inversiones [%]
+*/
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(3) > div:nth-child(1) > div{
+    gap: 0px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(3){
+    background-color: #222222;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(3) > div:nth-child(1) > div > div:nth-child(1) > div{
+    padding: 20px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(3) canvas{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(10) > div > div > div:nth-child(3) > div:nth-child(1) > div > div:nth-child(2) > div > div{
+    width: 100% !important;
+}
+
+/*
+ Grid: Share of Spend y Share of effect
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div{
+    gap: 0px !important;
+}
+
+/*
+ Share of Spend y Share of effect
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(1){
+    background-color: #222222;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(2){
+    background-color: #222222;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(2) canvas{
+    padding: 20px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div{
+    width: 100% !important;
+}
+
+/*
+ Tabla
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(3){
+    background-color: #222222;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/*
+ Influencia de las variables en el modelo
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(4){
+    background-color: #222222;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(1) > div:nth-child(1) > div > div:nth-child(5){
+    background-color: #222222;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div > div:nth-child(1) > div > div:nth-child(5) > div > div{
+    width: 100% !important;
+}
+
+/*
+ Resultados reales X previstos
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(2){
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(11) > div > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > div > div > div{
+    height: 1050px !important;
+}
+
+/*
+ Footer
+*/
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(12) > div{
+    text-align: right;
+    display: block;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(13) > div > div,
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(13) > div > div > div{
+    display: block;
+    text-align: right;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div > div:nth-child(1) > div > div:nth-child(13) > div > div > div > img{
+    width: 100px !important;
+}
+
+#root > div:nth-child(1) > div > div > div > div > section > div:nth-child(2),
+#root > div:nth-child(1) > div > div > div > div > section > div:nth-child(3),
+#root > div:nth-child(1) > div > div > div > div > section > footer{
+    display: none !important;
+}

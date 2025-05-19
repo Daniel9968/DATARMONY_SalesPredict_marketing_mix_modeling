@@ -1,0 +1,1 @@
+SELECT year, week, units, pvp, pvp/units AS aov FROM(SELECT year, week, SUM(units) AS units, SUM(pvp) AS pvp  FROM `prj-dt-pro-dwh-dmt-data.ds_fusion_marketing_mix_modeling.tbl-dmt-fusion-marketing_mix_modeling-aov` WHERE bu = {{bu}} GROUP BY year, week)

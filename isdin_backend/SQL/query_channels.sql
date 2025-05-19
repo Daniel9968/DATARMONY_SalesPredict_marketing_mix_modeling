@@ -1,0 +1,1 @@
+SELECT DISTINCT campaign_bucket_0 FROM `prj-dt-pro-dwh-dmt-data.ds_booster_marketing_mix_modeling.tbl-dmt-booster-marketing_mix_modeling-buckets` WHERE origin != 'connected tv'
